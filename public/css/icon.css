@@ -1,0 +1,120 @@
+.icon
+{
+    width: 3rem;
+    height: 3rem;
+}
+.icon i,
+.icon svg
+{
+    font-size: 2.25rem;
+}
+.icon + .icon-text
+{
+    width: calc(100% - 3rem - 1);
+    padding-left: 1rem;
+}
+.icon-shape
+{
+    display: inline-flex;
+
+    padding: 12px;
+
+    text-align: center;
+
+    border-radius: 50%;
+
+    align-items: center;
+    justify-content: center;
+}
+.icon-shape i,
+.icon-shape svg
+{
+    font-size: 1.25rem;
+}
+.icon-shape.icon-lg i,
+.icon-shape.icon-lg svg
+{
+    font-size: 1.625rem;
+}
+.icon-shape.icon-sm i,
+.icon-shape.icon-sm svg
+{
+    font-size: .875rem;
+}
+.icon-shape svg
+{
+    width: 30px;
+    height: 30px;
+}
+
+.icon-shape-primary
+{
+    color: #2643e9;
+    background-color: rgba(138, 152, 235, .5);
+}
+
+.icon-shape-secondary
+{
+    color: #cfe3f1;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.icon-shape-success
+{
+    color: #1aae6f;
+    background-color: rgba(84, 218, 161, .5);
+}
+
+.icon-shape-info
+{
+    color: #03acca;
+    background-color: rgba(65, 215, 242, .5);
+}
+
+.icon-shape-warning
+{
+    color: #ff3709;
+    background-color: rgba(252, 140, 114, .5);
+}
+
+.icon-shape-danger
+{
+    color: #f80031;
+    background-color: rgba(247, 103, 131, .5);
+}
+
+.icon-shape-light
+{
+    color: #879cb0;
+    background-color: rgba(201, 207, 212, .5);
+}
+
+.icon-shape-dark
+{
+    color: #090c0e;
+    background-color: rgba(56, 63, 69, .5);
+}
+
+.icon-shape-default
+{
+    color: #091428;
+    background-color: rgba(35, 65, 116, .5);
+}
+
+.icon-shape-white
+{
+    color: #e8e3e3;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.icon-shape-neutral
+{
+    color: #e8e3e3;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.icon-shape-darker
+{
+    color: black;
+    background-color: rgba(26, 26, 26, .5);
+}

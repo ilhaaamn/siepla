@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="db_srv@happroject-v2.database.windows.net" uuid="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c">
+      <database-info product="Microsoft SQL Server" version="12.00.1300" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.2 for SQL Server" driver-version="7.2.1.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>hap-admin</user-name>
+      <introspection-schemas>db_srv:dbo</introspection-schemas>
+    </data-source>
+  </component>
+</project>
