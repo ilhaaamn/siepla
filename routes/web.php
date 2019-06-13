@@ -22,4 +22,12 @@ Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 
+Route::resource('/dealer','DealerController');
+
+Route::resource('/retail','RetailController');
+
+Route::resource('/sreport','ReportController');
+
+Route::resource('/shipping','ShippingController');
+
 Route::get('/bikemodel/chart', 'HomeController@testChart')->name('chart');

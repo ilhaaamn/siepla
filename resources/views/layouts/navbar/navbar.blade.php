@@ -2,7 +2,17 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ url('/') }}">
             @if($user = auth()->user())
-                Dashboard
+                @if(\Illuminate\Support\Facades\Request::is('dashboard'))
+                    Dashboard
+                @elseif(\Illuminate\Support\Facades\Request::is('dealer'))
+                    Dealer
+                @elseif(\Illuminate\Support\Facades\Request::is('retail'))
+                    Retail
+                @elseif(\Illuminate\Support\Facades\Request::is('shipping'))
+                    Shipping
+                @elseif(\Illuminate\Support\Facades\Request::is('salesvisit'))
+                    Sales Visit
+                @endif
             @else
                 {{ config('app.name', 'Laravel') }}
             @endif
