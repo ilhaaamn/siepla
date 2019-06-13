@@ -51,8 +51,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="warehouse_authorization_keys" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/warehouse_authorization_keys">
+      <file leaf-file-name="detail_reports" pinned="false" current-in-tab="true">
+        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_reports">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -60,8 +60,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_reports" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_reports">
+      <file leaf-file-name="bike_models" pinned="false" current-in-tab="false">
+        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/bike_models">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -96,17 +96,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_retail_reports" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail_retail_reports" pinned="false" current-in-tab="false">
         <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_retail_reports">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="warehouses" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/warehouses">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -141,6 +132,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="shipment_details" pinned="false" current-in-tab="false">
+        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipment_details">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -155,6 +155,9 @@
       <find>forgot</find>
       <find>for</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -285,91 +288,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="navbar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sieplav2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sieplav2" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="siepla2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="siepla2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,7 +307,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Azure (Microsoft)" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../siepla19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -425,11 +355,12 @@
       <workItem from="1557225832378" duration="984000" />
       <workItem from="1557549121995" duration="2462000" />
       <workItem from="1558398231342" duration="2059000" />
+      <workItem from="1559633702907" duration="2097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42250000" />
+    <option name="totallyTimeSpent" value="44347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -438,12 +369,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24200426" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.24200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -652,13 +583,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/bike_models">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/DataTables/datatables.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -726,22 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3213">
           <caret line="11" column="178207" selection-start-line="11" selection-start-column="178207" selection-end-line="11" selection-end-column="178207" />
-          <folding>
-            <element signature="e#30650#30884#2" expanded="true" />
-            <element signature="e#31765#31918#1" expanded="true" />
-            <element signature="e#31959#32193#1" expanded="true" />
-            <element signature="e#35456#35732#2" expanded="true" />
-            <element signature="e#36639#36792#1" expanded="true" />
-            <element signature="e#36833#37109#1" expanded="true" />
-            <element signature="e#70082#70269#2" expanded="true" />
-            <element signature="e#70502#70638#2" expanded="true" />
-            <element signature="e#71049#71182#2" expanded="true" />
-            <element signature="e#72943#73096#1" expanded="true" />
-            <element signature="e#88167#88397#2" expanded="true" />
-            <element signature="e#89232#89468#2" expanded="true" />
-            <element signature="e#122297#122474#2" expanded="true" />
-            <element signature="e#122520#122697#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,12 +792,13 @@
               <point x="-18.25" y="37.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.3548387096774194" x="392.9867180708143" y="598.7212501072822" />
+          <settings layout="Hierarchic Group" zoom="0.3548387096774194" x="393.0" y="599.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -897,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipment_details">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -942,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/documents">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -956,7 +851,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_reports">
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_retail_reports">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -977,7 +872,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_retail_reports">
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipment_details">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipments">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/bike_models">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_reports">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
