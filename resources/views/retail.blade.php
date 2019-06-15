@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="row">
+    {{--<div class="row">
         <div class="col-md-3">
             <div class="card">
                 <div class="card-body">
@@ -86,63 +86,65 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--}}
     <div class="row pt-4">
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card">
-                    <div class="card-header bg-white">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <h6>Overview</h6>
-                                <h5 class="card-title text-muted mb-0" style="font-weight: bold">Transactions per Month</h5>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#!" class="btn btn-sm btn-primary">See all</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <canvas id="testChart1" height="500" width="600"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="col-md-4">
             <div class="card">
                 <div class="card-header bg-white">
                     <div class="row align-items-center">
                         <div class="col">
                             <h6>Overview</h6>
-                            <h5 class="card-title text-muted mb-0" style="font-weight: bold">Shipping per Month</h5>
-                        </div>
-                        <div class="col-md-2">
-                            <a href="#!" class="btn btn-sm btn-primary">See all</a>
+                            <h5 class="card-title text-muted mb-0" style="font-weight: bold">Transactions per Month</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card-body">
-                    <canvas id="testChart2" height="500" width="600"></canvas>
+                    <canvas id="testChart1" height="610" width="600"></canvas>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-8">
             <div class="card">
-                <div class="card">
-                    <div class="card-header bg-white">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <h6>Overview</h6>
-                                <h5 class="card-title text-muted mb-0" style="font-weight: bold">Returned Items compare to Sales</h5>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#!" class="btn btn-sm btn-primary">See all</a>
-                            </div>
+                <div class="card-header bg-white">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h6>Overview</h6>
+                            <h5 class="card-title text-muted mb-0" style="font-weight: bold">All Transaction</h5>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <canvas id="testChart3" height="500" width="600"></canvas>
-                    </div>
+                </div>
+                <div class="card-body">
+                    <table id="items" class="table table-striped table-bordered table-light hover" style="width: 100%">
+                        <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>Color</th>
+                            <th>Spec</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @php
+                            $i = 1;
+                        @endphp
+                        @foreach($bikes as $bike)
+                            <tr>
+                                <td>
+                                    {{$i++}}
+                                </td>
+                                <td>
+                                    {{$bike->name}}
+                                </td>
+                                <td>
+                                    {{$bike->color}}
+                                </td>
+                                <td>
+                                    {{$bike->spec}}
+                                </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

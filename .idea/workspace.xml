@@ -51,80 +51,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="detail_reports" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/detail_reports">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reports" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/reports">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Report.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Report.php">
+      <file leaf-file-name="retail.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/retail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="204">
+              <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+              <folding>
+                <element signature="e#75#1096#0#HTML" />
+                <element signature="e#1105#2131#0#HTML" />
+                <element signature="e#2140#3194#0#HTML" />
+                <element signature="e#3203#4266#0#HTML" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Document.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Document.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="RetailReport.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/RetailReport.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="DetailReport.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DetailReport.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bike_models" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/bike_models">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="specs" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/specs">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="RetailController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RetailController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shipments" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipments">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shipment_details" pinned="false" current-in-tab="false">
-        <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipment_details">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="ReportController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -175,15 +139,16 @@
         <option value="$PROJECT_DIR$/resources/views/dealer.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RetailController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ShippingController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navbar/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/ReturnedItem.php" />
         <option value="$PROJECT_DIR$/app/Shipment.php" />
-        <option value="$PROJECT_DIR$/app/RetailReport.php" />
         <option value="$PROJECT_DIR$/app/ShipmentLog.php" />
         <option value="$PROJECT_DIR$/app/WarehouseInventory.php" />
         <option value="$PROJECT_DIR$/app/Report.php" />
+        <option value="$PROJECT_DIR$/app/RetailReport.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RetailController.php" />
+        <option value="$PROJECT_DIR$/resources/views/retail.blade.php" />
       </list>
     </option>
   </component>
@@ -305,6 +270,19 @@
             <path>
               <item name="siepla2" type="b2602c69:ProjectViewProjectNode" />
               <item name="siepla2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="siepla2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="siepla2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="siepla2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="siepla2" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,26 +356,26 @@
       <workItem from="1559633702907" duration="2097000" />
       <workItem from="1560389160138" duration="1098000" />
       <workItem from="1560516066741" duration="694000" />
-      <workItem from="1560570539007" duration="2419000" />
+      <workItem from="1560570539007" duration="3846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48558000" />
+    <option name="totallyTimeSpent" value="49985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17429194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24200426" />
+      <window_info anchor="right" id="Database" order="3" weight="0.24200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -407,6 +385,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
@@ -417,7 +396,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/retail.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/shipping.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/salesreport.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/navbar/sidebar.blade.php">
@@ -537,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DealerController.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79">
@@ -545,7 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RetailController.php" />
     <entry file="uml://DATABASE/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.DATABASE:db_srv">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -819,13 +795,6 @@
       </provider>
     </entry>
     <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/user_role" />
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/specs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/documents">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -841,21 +810,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipment_details">
+    <entry file="file://$USER_HOME$/Documents/1604564_Muhammad Ilham Nurfathiya_Tubes_TBA/palindrom-turing-machine-master/static/turing.js" />
+    <entry file="file://$PROJECT_DIR$/app/DetailReport.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/returned_items">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/bike_models">
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/reports">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -869,24 +835,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/1604564_Muhammad Ilham Nurfathiya_Tubes_TBA/palindrom-turing-machine-master/static/turing.js" />
-    <entry file="file://$PROJECT_DIR$/app/DetailReport.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Document.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/returned_items">
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/bike_models">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/RetailReport.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/specs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/reports">
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipments">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/shipment_details">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -897,6 +874,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/RetailReport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RetailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/retail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+          <folding>
+            <element signature="e#75#1096#0#HTML" />
+            <element signature="e#1105#2131#0#HTML" />
+            <element signature="e#2140#3194#0#HTML" />
+            <element signature="e#3203#4266#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
