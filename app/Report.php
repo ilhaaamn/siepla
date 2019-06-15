@@ -14,4 +14,8 @@ class Report extends Model
     public function detail(){
         return $this->hasMany('App\DetailReport');
     }
+
+    public function dealer(){
+        return $this->belongsTo('App\Dealer');
+    }
 }
