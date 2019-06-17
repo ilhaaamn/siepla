@@ -2,13 +2,13 @@
 
 @section('content')
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
                         <div class="col" style="font-size: 20pt">
-                            <h5 class="card-title text-muted mb-0">Total Transaction</h5>
-                            <span class="h2 font-weight-bold mb-0">6,645</span>
+                            <h5 class="card-title text-muted mb-0">Total Transaction this Month</h5>
+                            <span class="h2 font-weight-bold mb-0">{{$totalTransaction}}</span>
                         </div>
                         <div class="col-auto">
                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
@@ -23,34 +23,13 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
                         <div class="col" style="font-size: 20pt">
-                            <h5 class="card-title text-muted mb-0">Total Item Sold</h5>
-                            <span class="h2 font-weight-bold mb-0">23,563</span>
-                        </div>
-                        <div class="col-auto">
-                            <div class="icon icon-shape bg-primary text-white rounded-circle shadow">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="mt-3 mb-0 text-muted text-sm">
-                        <span class="text-danger mr-2"><i class="fa fa-arrow-down"></i> 1.25%</span>
-                        <span class="text-nowrap">Since last month</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col" style="font-size: 20pt">
-                            <h5 class="card-title text-muted mb-0">Total Shipping</h5>
-                            <span class="h2 font-weight-bold mb-0">1,223</span>
+                            <h5 class="card-title text-muted mb-0">Total Shipping this Month</h5>
+                            <span class="h2 font-weight-bold mb-0">{{$totalShipping}}</span>
                         </div>
                         <div class="col-auto">
                             <div class="icon icon-shape bg-success text-white rounded-circle shadow pl-2 pr-2" style="font-size: 20pt;">
@@ -60,18 +39,18 @@
                     </div>
                     <p class="mt-3 mb-0 text-muted text-sm">
                         <span class="text-secondary mr-2"><i class="fas fa-minus"></i> 0%</span>
-                        <span class="text-nowrap">Since last week</span>
+                        <span class="text-nowrap">Since last month</span>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
                         <div class="col" style="font-size: 20pt">
-                            <h5 class="card-title text-muted mb-0">Total Returned Products</h5>
-                            <span class="h2 font-weight-bold mb-0">45</span>
+                            <h5 class="card-title text-muted mb-0">Total Returned this Month</h5>
+                            <span class="h2 font-weight-bold mb-0">{{$totalReturned}}</span>
                         </div>
                         <div class="col-auto">
                             <div class="icon icon-shape bg-warning text-white rounded-circle shadow pl-2 pr-2" style="font-size: 20pt;">
@@ -98,12 +77,12 @@
                                 <h5 class="card-title text-muted mb-0" style="font-weight: bold">Transactions per Month</h5>
                             </div>
                             <div class="col-md-2">
-                                <a href="#!" class="btn btn-sm btn-primary">See all</a>
+                                <a href="{{url('retail')}}" class="btn btn-sm btn-primary">See all</a>
                             </div>
                         </div>
                     </div>
                     <div class="card-body">
-                        <canvas id="testChart1" height="500" width="600"></canvas>
+                        <canvas id="transactionChart" height="500" width="600"></canvas>
                     </div>
                 </div>
             </div>
@@ -122,7 +101,7 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <canvas id="testChart2" height="500" width="600"></canvas>
+                    <canvas id="shippingChart" height="500" width="600"></canvas>
                 </div>
             </div>
         </div>
@@ -136,27 +115,27 @@
                                 <h5 class="card-title text-muted mb-0" style="font-weight: bold">Returned Items compare to Sales</h5>
                             </div>
                             <div class="col-md-2">
-                                <a href="#!" class="btn btn-sm btn-primary">See all</a>
+                                <a href="{{url('shipping')}}" class="btn btn-sm btn-primary">See all</a>
                             </div>
                         </div>
                     </div>
                     <div class="card-body">
-                        <canvas id="testChart3" height="500" width="600"></canvas>
+                        <canvas id="returnedChart" height="500" width="600"></canvas>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row pt-4">
-        <div class="col-md-9">
+        <div class="col-md-8">
             <div class="card">
                 <div class="card-header bg-white">
                     <div class="row align-items-center">
-                        <div class="col-md-11">
+                        <div class="col-md-10">
                             <h5 class="card-title text-muted mb-0" style="font-weight: bold">Top Items</h5>
                         </div>
                         <div class="col">
-                            <a href="#!" class="btn btn-sm btn-primary">See all</a>
+                            <a href="{{url('retail')}}" class="btn btn-sm btn-primary">See all</a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card">
                 <div class="card-header bg-white">
                     <div class="row align-items-center">
@@ -203,7 +182,7 @@
                             <h5 class="card-title text-muted mb-0" style="font-weight: bold">Dealer with the most sales</h5>
                         </div>
                         <div class="col">
-                            <a href="dealer" class="btn btn-sm btn-primary">See all</a>
+                            <a href="{{url('dealer')}}" class="btn btn-sm btn-primary">See all</a>
                         </div>
                     </div>
                 </div>
@@ -213,19 +192,23 @@
                         <tr>
                             <th>No</th>
                             <th>Name</th>
+                            <th>Total Items</th>
                         </tr>
                         </thead>
                         <tbody>
                         @php
                             $i = 1;
                         @endphp
-                        @foreach($dealer as $dealer)
+                        @foreach($topDealer as $dealer => $dataDealer)
                             <tr>
                                 <td>
                                     {{$i++}}
                                 </td>
                                 <td>
-                                    {{$dealer->dlname}}
+                                    {{$dataDealer[0]->dealer->dlname}}
+                                </td>
+                                <td>
+                                    {{count($dataDealer)}}
                                 </td>
                             </tr>
                         @endforeach
@@ -249,25 +232,23 @@
     </script>
     {{--Chart Script--}}
     <script>
-        var url = "{{url('bikemodel/chart')}}";
-        var Name = new Array();
-        var Code = new Array();
-        var Color = new Array();
+        var urlRetail = "{{url('transaction/chart')}}";
+        var Month = new Array();
+        var TotalRetail = new Array();
         $(document).ready(function(){
-            $.get(url, function(response){
+            $.get(urlRetail, function(response){
                 response.forEach(function(data){
-                    Name.push(data.id);
-                    Code.push(data.code);
-                    Color.push(data.color);
+                    Month.push(data.month);
+                    TotalRetail.push(data.total);
                 });
-                var ctx = document.getElementById("testChart1").getContext('2d');
+                var ctx = document.getElementById("transactionChart").getContext('2d');
                 var myChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels:['January','February','March','April','May'],
+                        labels:['Jan','Feb','March','April','May','Jun','Jul','Aug','Sept', 'Oct', 'Nov', 'Dec'],
                         datasets: [{
                             label: 'Total Transaction per Month',
-                            data: ['22','10','35','5','17'],
+                            data: TotalRetail,
                             backgroundColor: "#f98d00",
                             pointBorderWidth: 0,
                             borderWidth: 5
@@ -290,25 +271,24 @@
         });
     </script>
     <script>
-        var url = "{{url('bikemodel/chart')}}";
+        var urlShipment = "{{url('shipment/chart')}}";
         var Name = new Array();
         var Code = new Array();
-        var Color = new Array();
+        var TotalShipment = new Array();
         $(document).ready(function(){
-            $.get(url, function(response){
+            $.get(urlShipment, function(response){
                 response.forEach(function(data){
-                    Name.push(data.id);
-                    Code.push(data.code);
-                    Color.push(data.color);
+                    Month.push(data.month);
+                    TotalShipment.push(data.total);
                 });
-                var ctx = document.getElementById("testChart2").getContext('2d');
+                var ctx = document.getElementById("shippingChart").getContext('2d');
                 var myChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels:['January','February','March','April','May'],
+                        labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep', 'Oct', 'Nov', 'Dec'],
                         datasets: [{
                             label: 'Total Transaction per Month',
-                            data: ['10','10','20','5','25'],
+                            data: TotalShipment,
                             backgroundColor: "#3e95cd",
                             pointBorderWidth: 0,
                             borderWidth: 5
@@ -331,31 +311,29 @@
         });
     </script>
     <script>
-        var url = "{{url('bikemodel/chart')}}";
-        var Name = new Array();
-        var Code = new Array();
-        var Color = new Array();
+        var urlCompare = "{{url('compare/chart')}}";
+        var totalReturned = new Array();
+        var totalRetail = new Array();
         $(document).ready(function(){
-            $.get(url, function(response){
+            $.get(urlCompare, function(response){
                 response.forEach(function(data){
-                    Name.push(data.id);
-                    Code.push(data.code);
-                    Color.push(data.color);
+                    totalRetail.push(data.totalRetail);
+                    totalReturned.push(data.totalReturned);
                 });
-                var ctx = document.getElementById("testChart3").getContext('2d');
+                var ctx = document.getElementById("returnedChart").getContext('2d');
                 var myChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels:['January','February','March','April','May'],
+                        labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep', 'Oct', 'Nov', 'Dec'],
                         datasets: [{
                             label: 'Total Transaction per Month',
-                            data: ['10','10','20','5','25'],
+                            data: totalRetail,
                             borderColor: "#3e95cd",
                             pointBorderWidth: 0,
                             borderWidth: 5
                         },{
                             label: 'Total Returned Items per Month',
-                            data: ['1','3','2','2','0'],
+                            data: totalReturned,
                             borderColor: "red",
                             pointBorderWidth: 0,
                             borderWidth: 5

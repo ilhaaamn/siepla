@@ -10,7 +10,7 @@
                     Retail
                 @elseif(\Illuminate\Support\Facades\Request::is('shipping'))
                     Shipping
-                @elseif(\Illuminate\Support\Facades\Request::is('salesvisit'))
+                @elseif(\Illuminate\Support\Facades\Request::is('sreport'))
                     Sales Visit
                 @endif
             @else

@@ -22,8 +22,7 @@ class ReportController extends Controller
     public function index()
     {
         //
-        $data['bikes'] = BikeModel::all()->take(10);
-        $data['dealer'] = Dealer::all()->take(10);
+        $data['reports'] = Report::all();
         return view('salesreport')->with($data);
     }
 

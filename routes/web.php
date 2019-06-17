@@ -30,4 +30,6 @@ Route::resource('/sreport','ReportController');
 
 Route::resource('/shipping','ShippingController');
 
-Route::get('/bikemodel/chart', 'HomeController@testChart')->name('chart');
+Route::get('/shipment/chart', 'HomeController@shippingChart')->name('shippingChart');
+Route::get('/compare/chart', 'HomeController@compareChart')->name('compareChart');
+Route::get('/transaction/chart', 'HomeController@transactionChart')->name('transactionChart');

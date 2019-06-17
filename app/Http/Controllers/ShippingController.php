@@ -24,7 +24,8 @@ class ShippingController extends Controller
         //
         $data['bikes'] = BikeModel::all()->take(10);
         $data['dealer'] = Dealer::all()->take(10);
-        return view('salesreport')->with($data);
+        $data['shipments'] = Shipment::with('warehouse')->get();
+        return view('shipping')->with($data);
     }
 
 

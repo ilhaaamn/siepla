@@ -22,8 +22,9 @@ class RetailController extends Controller
     public function index()
     {
         //
-        $data['bikes'] = BikeModel::all()->take(10);
+        $data['retails'] = RetailReport::with('dealer')->get();
         $data['dealer'] = Dealer::all()->take(10);
+        $data['bikes'] = BikeModel::all()->take(10);
         return view('retail')->with($data);
     }
 
