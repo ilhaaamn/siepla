@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Shipment;
+use App\Warehouse;
 use Illuminate\Http\Request;
 use App\BikeModel;
 use App\Dealer;
@@ -25,6 +26,7 @@ class ShippingController extends Controller
         $data['bikes'] = BikeModel::all()->take(10);
         $data['dealer'] = Dealer::all()->take(10);
         $data['shipments'] = Shipment::with('warehouse')->get();
+        $data['warehouse'] = Warehouse::all();
         return view('shipping')->with($data);
     }
 

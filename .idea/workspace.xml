@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8e5cb9-7b80-449e-aa34-bc56c2067d7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/storage_v2/_src_/database/db_srv.too2sA/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/storage_v2/_src_/database/db_srv.too2sA/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RetailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RetailController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShippingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShippingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbar/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbar/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbar/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbar/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/retail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/retail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/salesreport.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/salesreport.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/shipping.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shipping.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,17 +58,33 @@
       <file leaf-file-name="RetailReport.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/RetailReport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RetailController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RetailController.php">
+      <file leaf-file-name="shipping.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/shipping.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="92">
+              <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+              <folding>
+                <element signature="e#80#936#0#HTML" />
+                <element signature="e#1885#2511#0#HTML" />
+                <element signature="e#80#1876#0#HTML" />
+                <element signature="e#2662#2866#0#HTML" />
+                <element signature="e#2879#4702#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="336" column="45" selection-start-line="336" selection-start-column="42" selection-end-line="336" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -87,7 +92,7 @@
       <file leaf-file-name="ReportController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="357">
               <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
             </state>
           </provider>
@@ -96,7 +101,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="986">
               <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
               <folding>
                 <element signature="e#40#58#0#PHP" expanded="true" />
@@ -109,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/app/Report.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -117,13 +122,22 @@
       <file leaf-file-name="salesreport.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/salesreport.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1445">
+            <state relative-caret-position="595">
               <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShippingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShippingController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/navbar/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -137,24 +151,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-379">
-              <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShippingController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -212,12 +208,12 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/RetailController.php" />
         <option value="$PROJECT_DIR$/resources/views/retail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navbar/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ShippingController.php" />
-        <option value="$PROJECT_DIR$/resources/views/shipping.blade.php" />
         <option value="$PROJECT_DIR$/app/Report.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" />
         <option value="$PROJECT_DIR$/resources/views/salesreport.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navbar/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ShippingController.php" />
+        <option value="$PROJECT_DIR$/resources/views/shipping.blade.php" />
       </list>
     </option>
   </component>
@@ -324,6 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,7 +381,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,11 +388,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Azure (Microsoft)" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../svr" />
+    <property name="last_opened_file_path" value="D:/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -447,58 +443,62 @@
       <workItem from="1560516066741" duration="694000" />
       <workItem from="1560570539007" duration="4444000" />
       <workItem from="1560659641938" duration="27600000" />
+      <workItem from="1560762373512" duration="1341000" />
+      <workItem from="1561210821869" duration="855000" />
+      <workItem from="1561296548275" duration="52000" />
+      <workItem from="1561296613847" duration="1242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78183000" />
+    <option name="totallyTimeSpent" value="81673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24200426" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" weight="0.24200426" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.48583877" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,45 +566,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DealerController.php" />
-    <entry file="uml://DATABASE/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.DATABASE:db_srv">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.DATABASE:db_srv</OriginalElement>
-          <nodes>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.returned_items</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_details</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.colors</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.bike_models</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.sysdiagrams</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.reports</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.user_roles</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.password_resets</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_logs</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.retail_reports</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipments</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.detail_reports</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_inventories</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_authorization_keys</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.migrations</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.documents</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.specs</node>
-            <node x="" y="">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.4556166535742341" x="643.0" y="627.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -874,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
-          <folding>
-            <element signature="n#style#0;n#a#4;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shipping.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://a0d14f0c-9b5c-4491-819c-fb2e08e66a3c/database/db_srv/schema/dbo/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -929,23 +880,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShippingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RetailController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="391">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
@@ -960,20 +897,20 @@
     <entry file="file://$PROJECT_DIR$/app/Report.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="357">
           <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="986">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding>
             <element signature="e#40#58#0#PHP" expanded="true" />
@@ -983,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/RetailReport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -997,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/salesreport.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1445">
+        <state relative-caret-position="595">
           <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
         </state>
       </provider>
@@ -1009,5 +946,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://DATABASE/a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.DATABASE:db_srv">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.DATABASE:db_srv</OriginalElement>
+          <nodes>
+            <node x="383.49999999999994" y="1024.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.returned_items</node>
+            <node x="754.5" y="1079.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_details</node>
+            <node x="434.0" y="1275.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.colors</node>
+            <node x="393.00000000000006" y="490.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.bike_models</node>
+            <node x="1160.6447916666666" y="0.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.sysdiagrams</node>
+            <node x="147.33541666666667" y="501.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.reports</node>
+            <node x="733.3354166666667" y="0.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.user_roles</node>
+            <node x="247.0" y="790.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.documents</node>
+            <node x="227.0" y="1275.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.password_resets</node>
+            <node x="950.6447916666666" y="1035.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_logs</node>
+            <node x="660.25" y="468.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses</node>
+            <node x="302.5854166666667" y="124.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.retail_reports</node>
+            <node x="850.1447916666666" y="702.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipments</node>
+            <node x="45.0" y="746.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.detail_reports</node>
+            <node x="428.0" y="768.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_inventories</node>
+            <node x="600.0" y="790.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_authorization_keys</node>
+            <node x="0.0" y="1275.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.migrations</node>
+            <node x="636.8354166666667" y="124.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users</node>
+            <node x="631.0" y="1275.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.specs</node>
+            <node x="327.5854166666667" y="0.0">a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipments" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST">
+              <point x="45.75" y="-136.0" />
+              <point x="987.3947916666666" y="94.0" />
+              <point x="467.98541666666665" y="94.0" />
+              <point x="62.39999999999998" y="37.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses">
+              <point x="28.25" y="147.0" />
+              <point x="778.0854166666667" y="443.0" />
+              <point x="793.75" y="443.0" />
+              <point x="44.5" y="-92.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_logs" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipments">
+              <point x="-41.25" y="-92.0" />
+              <point x="991.8947916666666" y="1004.0" />
+              <point x="987.3947916666666" y="1004.0" />
+              <point x="45.75" y="136.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_logs" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users">
+              <point x="41.25" y="-92.0" />
+              <point x="1074.3947916666666" y="1004.0" />
+              <point x="1068.0562499999999" y="1004.0" />
+              <point x="1068.0562499999999" y="443.0" />
+              <point x="834.5854166666667" y="443.0" />
+              <point x="84.74999999999997" y="147.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users">
+              <point x="-44.5" y="-92.0" />
+              <point x="704.75" y="443.0" />
+              <point x="721.5854166666667" y="443.0" />
+              <point x="-28.25" y="147.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_authorization_keys" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses">
+              <point x="0.0" y="-48.0" />
+              <point x="696.0" y="677.0" />
+              <point x="727.0" y="677.0" />
+              <point x="-22.25" y="92.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_inventories" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.bike_models">
+              <point x="-37.99999999999994" y="-70.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.detail_reports" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.reports">
+              <point x="0.0" y="-92.0" />
+              <point x="136.0" y="677.0" />
+              <point x="189.83541666666667" y="677.0" />
+              <point x="-42.5" y="59.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.reports" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST">
+              <point x="-42.5" y="-59.0" />
+              <point x="189.83541666666667" y="104.0" />
+              <point x="374.38541666666674" y="104.0" />
+              <point x="-31.19999999999999" y="37.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST">
+              <point x="-56.5" y="-147.0" />
+              <point x="693.3354166666667" y="104.0" />
+              <point x="436.7854166666667" y="104.0" />
+              <point x="31.19999999999999" y="37.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipments" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses">
+              <point x="-45.75" y="-136.0" />
+              <point x="895.8947916666666" y="677.0" />
+              <point x="816.0" y="677.0" />
+              <point x="66.75" y="92.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_details" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipments">
+              <point x="34.75" y="-48.0" />
+              <point x="858.75" y="1004.0" />
+              <point x="895.8947916666666" y="1004.0" />
+              <point x="-45.75" y="136.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.retail_reports" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST">
+              <point x="0.0" y="-147.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.shipment_details" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_inventories">
+              <point x="-34.75" y="-48.0" />
+              <point x="789.25" y="994.0" />
+              <point x="542.0000000000001" y="994.0" />
+              <point x="38.00000000000006" y="70.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.user_roles">
+              <point x="56.5" y="-147.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.returned_items" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST">
+              <point x="-54.99999999999994" y="-103.0" />
+              <point x="411.0" y="1004.0" />
+              <point x="34.5" y="1004.0" />
+              <point x="34.5" y="94.0" />
+              <point x="343.1854166666667" y="94.0" />
+              <point x="-62.39999999999998" y="37.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.reports" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.users">
+              <point x="42.5" y="-59.0" />
+              <point x="274.8354166666667" y="443.0" />
+              <point x="665.0854166666667" y="443.0" />
+              <point x="-84.75" y="147.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.documents" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.reports">
+              <point x="0.0" y="-48.0" />
+              <point x="327.5" y="677.0" />
+              <point x="274.8354166666667" y="677.0" />
+              <point x="42.5" y="59.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.returned_items" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_inventories">
+              <point x="5.6843418860808015E-14" y="-103.0" />
+              <point x="-38.0" y="70.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouse_inventories" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses">
+              <point x="38.00000000000006" y="-70.0" />
+              <point x="542.0000000000001" y="677.0" />
+              <point x="682.5" y="677.0" />
+              <point x="-66.75" y="92.0" />
+            </edge>
+            <edge source="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.returned_items" target="a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.warehouses">
+              <point x="55.00000000000006" y="-103.0" />
+              <point x="521.0" y="1004.0" />
+              <point x="802.5" y="1004.0" />
+              <point x="802.5" y="677.0" />
+              <point x="771.5" y="677.0" />
+              <point x="22.25" y="92.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.40546369518332137" x="673.0" y="670.0" />
+          <SelectedNodes>
+            <node>a0d14f0c-9b5c-4491-819c-fb2e08e66a3c.TABLE:db_srv.dbo.TS_DEALERLIST</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShippingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="336" column="45" selection-start-line="336" selection-start-column="42" selection-end-line="336" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shipping.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+          <folding>
+            <element signature="e#80#936#0#HTML" />
+            <element signature="e#1885#2511#0#HTML" />
+            <element signature="e#80#1876#0#HTML" />
+            <element signature="e#2662#2866#0#HTML" />
+            <element signature="e#2879#4702#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
